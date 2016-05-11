@@ -16,12 +16,12 @@ public class Opts {
     return x;
   }
   public static void main(String [] args){
-    // int first =1;
-    // int second =2;
-    // int result = sum(first, second);
-    // System.out.println( result );
-    // System.out.println( multiply(3, 2) );
-    // System.out.println( divide(10, 2) );
+    int first =1;
+    int second =2;
+    int result = sum(first, second);
+    System.out.println( result );
+    System.out.println( multiply(3, 2) );
+    System.out.println( divide(10, 2) );
     System.out.println( power(3) );
   }
 }
