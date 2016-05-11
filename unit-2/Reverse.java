@@ -1,12 +1,11 @@
 public class Reverse {
-  public String other(String x) {
-    String reversedString = x;
-    for(int i = x.length; i > 0; i--) {
-      reversedString += x[i];
-    }
-    return reversedString;
-  }
   public static void main(String [] args) {
-    System.out.println( other('hello world') );
+    String word = args[0];
+    String reversedString = "";
+
+    for ( int i = word.length() - 1; i >= 0; i-- ) {
+      reversedString += word.charAt(i);
+    }
+    System.out.println(reversedString);
   }
 }
